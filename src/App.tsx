@@ -93,7 +93,6 @@ const App = () => {
                 onChange={handleFromValChange}
                 selectedCurrency={selectedCurrencyFrom}
                 setSelectedCurrency={setSelectedCurrencyFrom}
-                // error={error}
               />
               <SwapFieldsButton onClick={handleSwap} />
               <CurrencyInputField
@@ -101,7 +100,6 @@ const App = () => {
                 onChange={handleToValChange}
                 selectedCurrency={selectedCurrencyTo}
                 setSelectedCurrency={setSelectedCurrencyTo}
-                // error={error}
               />
             </>
           ) : (
